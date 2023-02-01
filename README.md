@@ -14,6 +14,8 @@ These folders of the participants are organized as follow:
 
   - **results-classifier**
 
+Each folder also contains a documentation made by the participants describing the raw and integrated scores they applied on the benchmark.
+
 
 
 The folder **benchmark** is organized as follow:
