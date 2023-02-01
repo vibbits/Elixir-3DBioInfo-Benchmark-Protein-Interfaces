@@ -6,11 +6,15 @@ The content is provided under the license https://creativecommons.org/licenses/b
 
 This repository contains 14 folders. 13 folders correspond to the results of each participants, one folder corresponds to the benchmark set of protein structures. 
 
+
+
 - These folders of the participants are organized as follow:
 
   **results-raw**
 
   **results-classifier**
+
+
 
 - The folder **benchmark** is organized as follow:
 
