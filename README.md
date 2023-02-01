@@ -5,12 +5,14 @@ The content is provided under the license https://creativecommons.org/licenses/b
 
 This repository contains 14 folders. 13 folders correspond to the results of each participants, one folder corresponds to the benchmark set of protein structures. 
 
-The benchmark dataset set itself contains a few hundred homodimers that are predicted to be “physiological or non-physiological”. Those predictions are based on the methods from the groups of Dunbrack and Levy. These methods rely on the conservation of interaction geometry (i.e., not of the residues at the interface, but of the structure of the interface), across crystal forms (Roland’s method), across homologs (QSalign), or across methods (QSbio, itself integrating PISA + EPPIC). 
+The benchmark dataset set itself contains a few hundred homodimers that are predicted to be “physiological or non-physiological” (folder **benchmark**). Those predictions are based on the methods from the groups of Dunbrack and Levy. These methods rely on the conservation of interaction geometry (i.e., not of the residues at the interface, but of the structure of the interface), across crystal forms (Roland’s method), across homologs (QSalign), or across methods (QSbio, itself integrating PISA + EPPIC). 
 
 The key points of this dataset are: 
  
-(i) it is relatively large,
-(ii) it is accurate, especially if we take a consensus between Roland and our methods,
+(i) it is relatively large
+
+(ii) it is accurate, especially if we take a consensus between Roland and our methods
+
 (iii) it is expected to yield difficult predictions because the distribution of interface sizes is comparable among physiological and non-physiological complexes.
 
 The folder **benchmark** is organized as follow:
