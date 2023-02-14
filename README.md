@@ -10,7 +10,7 @@ The key points of this dataset are:
  
 (i) it is relatively large
 
-(ii) it is accurate, especially if we take a consensus between Roland and our methods
+(ii) it is accurate
 
 (iii) it is expected to yield difficult predictions because the distribution of interface sizes is comparable among physiological and non-physiological complexes.
 
