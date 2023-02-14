@@ -14,7 +14,7 @@ The key points of this dataset are:
 
 (iii) it is expected to yield difficult predictions because the distribution of interface sizes is comparable among physiological and non-physiological complexes.
 
-13 groups applied different scores to assess 
+13 groups applied different scores to discriminate between the physiological and non-physiological interfaces of this benchmark.
 
 
 **Content of the repository**
