@@ -33,9 +33,9 @@ The folder **benchmark** is organized as follow:
 
  Of the 1677 entries :
  
-     • 700 were selected based on ProtCID
+- 700 were selected based on ProtCID
      
-     • 977 were selected based on QSalign
+- 977 were selected based on QSalign
      
      
      
