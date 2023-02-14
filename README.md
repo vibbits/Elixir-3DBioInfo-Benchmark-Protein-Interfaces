@@ -8,7 +8,7 @@ Reliably scoring and ranking candidate models of protein complexes and assigning
 
 **The benchmark**
 
-The benchmark dataset set contains 1677 homodimers that are predicted to be “physiological or non-physiological” (folder **benchmark**). Those predictions are based on the methods from the groups of Dunbrack and Levy. These methods rely on the conservation of interaction geometry (i.e., not of the residues at the interface, but of the structure of the interface), across crystal forms (protCID, Xu et al, 2020), across homologs (QSalign, Dey et al, 2018), or across methods (QSbio, itself integrating PISA + EPPIC). Of the 1677 entries of the benchmark, 977 were selected based on QSalign and 700 were selected based on ProtCID.
+The benchmark dataset set contains 1677 homodimers that are predicted to be physiological or non-physiological (folder **benchmark**). Those predictions are based on the methods from the groups of Roland Dunbrack and Emmanuel Levy. These methods rely on the conservation of interaction geometry (i.e., not of the residues at the interface, but of the structure of the interface), across crystal forms (protCID, Xu et al, 2020), across homologs (QSalign, Dey et al, 2018), or across methods (QSbio, itself integrating PISA + EPPIC). Of the 1677 entries of the benchmark, 977 were selected based on QSalign and 700 were selected based on ProtCID.
 
 The benchmark is composed of 836 physiological homodimers and 841 non-physiological ones.
 
