@@ -43,6 +43,8 @@ The folder **Random_Forest_analysis** contains files from the random forest anal
 
 - files rf_topkXX.out: those files correspond to the probability for each entry to be a physiological dimer calculated using the random forest method on the features used by the teams (221 features in total). They contain three columns: entry id | label | probability; the label column indicates if an entry is a physiological dimer (=1) or not (=0), the probability denotes the probability calculated with the random forest that the entry is a physiological dimer. There are 5 different files, using the top 5, 10, 20, 50 and 221 features of the dataset.
 
+- files correlations-top20.csv and correlations-top50.csv: these files show the correlation between the top 20 and top 50 features selected during the random forest analysis.
+
 The folder **ROC_analysis** contain all the files related to the ROC analysis.     
      
 The folders of the participants are organized as follow:
