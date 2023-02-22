@@ -1,6 +1,4 @@
-Related to https://docs.google.com/document/d/11XxFre4Oqe3WOo_usQqjJo6Q4YLVTm6w/
-
----------------------------------
+--------------------------------
 collected_models_top_DockQ.csv
 ---------------------------------
 Extradata for collected_models_top_DockQ.tar.gz. Contains a row for each target (incl. 4 which could not be modelled in AF-Multimer and 2 which failed in DockQ) with following columns:
