@@ -25,7 +25,7 @@ The key points of this dataset are:
 
 **Content of the repository**
 
-This repository contains 14 folders. 13 folders correspond to the results of each participants, one folder corresponds to the benchmark set of protein structures.
+This repository contains 17 folders. 13 folders correspond to the results of each participants, one folder corresponds to the benchmark set of protein structures, one to the AlphaFold models generated during the study, one to the random forest analysis and one to the ROC analysis.
 
 The folder **benchmark** contains the pdb and mmcif files of the benchmark:
 
@@ -37,7 +37,7 @@ The folder **benchmark** contains the pdb and mmcif files of the benchmark:
 
 Each folder consists of 1677 entries (note: the CIF folder contains 1673 entries because the same structure can generate multiple interfaces depending on symmetry operations).
 
-The folder **AlphaFold_models** contain the models computed by AlphaFold-multimer. One model per entry, the one with the best DockQ score. It also contains a csv files recapitulating the dockQ score of each AlphaFold model.
+The folder **AlphaFold_models** contain the models computed by AlphaFold-multimer. It also contains a csv files recapitulating the dockQ score of each AlphaFold model. Please note that the folder contains only one AlphaFold model per entry, the one with the best DockQ score.
 
 The folder **Random_Forest_analysis** contains files from the random forest analysis:
 rf_topkXX.out: those files correspond to the probability for each entry to be a physiological dimer calculated using the random forest method on the features used by the teams (221 features in total). They contain three columns: entry id | label | probability; the label column indicates if an entry is a physiological dimer (=1) or not (=0), the probability denotes the probability calculated with the random forest that the entry is a physiological dimer. There are 5 different files, using the top 5, 10, 20, 50 and 221 features of the dataset.
