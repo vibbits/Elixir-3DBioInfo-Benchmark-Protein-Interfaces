@@ -74,6 +74,8 @@ The folders of the participants are organized as follow:
 
 Each folder also contains a documentation made by the participants describing the raw and integrated scores they applied on the benchmark.
 
+<br>
+
 <h2>References</h2>
 
 [1]	Jumper, J., Evans, R., Pritzel, A., Green, T., et al., Highly accurate protein structure prediction with AlphaFold. Nature 2021, 596, 583–589.
