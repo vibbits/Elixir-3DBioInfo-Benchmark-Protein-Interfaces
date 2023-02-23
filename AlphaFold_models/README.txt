@@ -1,7 +1,7 @@
 --------------------------------
 collected_models_top_DockQ.csv
 ---------------------------------
-Extradata for collected_models_top_DockQ.tar.gz. Contains a row for each target (incl. 4 which could not be modelled in AF-Multimer and 2 which failed in DockQ) with following columns:
+Data file for collected_models_top_DockQ. Contains a row for each target (incl. 4 which could not be modelled in AF-Multimer and 2 which failed in DockQ) with following columns:
 - pdb_id: identifies dimer target
 - is_levy: distinguishes between QSalign set (True) and ProtCID set (False)
 - is_physio: True/False if phys./non-phys.
