@@ -2,9 +2,9 @@ The PDB folder consists of 1677 entries, the CIF folder contains 1673 entries be
 
 Of the 1677 entries :
 
-- 700 were selected based on ProtCID
+- 700 were selected based on ProtCID [1]
     
-- 977 were selected based on QSalign
+- 977 were selected based on QSalign [2]
 
  <br />
  
@@ -26,8 +26,8 @@ Of the 1677 entries :
 - *physio*: True if the dimer is a physiological contact, False otherwise.
 - *contacts*: The number of inter-residue contacts between the two subunits of the dimer.
 - *gene*: the UniProt identifier of the protein.
-- *superfamily*: The CATH [2,3] superfamily annotation of the protein.
-- *pfam*: The Pfam domain annotation [4,5] of the protein. 
+- *superfamily*: The CATH [3,4] superfamily annotation of the protein.
+- *pfam*: The Pfam domain annotation [5,6] of the protein. 
 - *bsa*: the buried surface area of the dimer
 - *bsa_polar*: The polar surface area of the dimer
 - *bsa_apolar*: The apolar surface area of the dimer
@@ -40,11 +40,13 @@ Of the 1677 entries :
 
 [1]	Xu, Q., Dunbrack, R.L., Jr, ProtCID: a data resource for structural information on protein interactions. Nat. Commun. 2020, 11, 711.
 
-[2]	Lewis, T.E., Sillitoe, I., Dawson, N., Lam, S.D., et al., Gene3D: Extensive prediction of globular domains in proteins. Nucleic Acids Res. 2018, 46, D435–D439.
+[2]	Dey, S., Ritchie, D.W., Levy, E.D., PDB-wide identification of biological assemblies from conserved quaternary structure geometry. Nat. Methods 2018, 15, 67–72.
 
-[3]	Sillitoe, I., Bordin, N., Dawson, N., Waman, V.P., et al., CATH: increased structural coverage of functional space. Nucleic Acids Res. 2021, 49, D266–D273.
+[3]	Lewis, T.E., Sillitoe, I., Dawson, N., Lam, S.D., et al., Gene3D: Extensive prediction of globular domains in proteins. Nucleic Acids Res. 2018, 46, D435–D439.
 
-[4]	Mistry, J., Chuguransky, S., Williams, L., Qureshi, M., et al., Pfam: The protein families database in 2021. Nucleic Acids Res. 2021, 49, D412–D419.
+[4]	Sillitoe, I., Bordin, N., Dawson, N., Waman, V.P., et al., CATH: increased structural coverage of functional space. Nucleic Acids Res. 2021, 49, D266–D273.
 
-[5]	Paysan-Lafosse, T., Blum, M., Chuguransky, S., Grego, T., et al., InterPro in 2022. Nucleic Acids Res. 2023, 51, D418–D427.
+[5]	Mistry, J., Chuguransky, S., Williams, L., Qureshi, M., et al., Pfam: The protein families database in 2021. Nucleic Acids Res. 2021, 49, D412–D419.
+
+[6]	Paysan-Lafosse, T., Blum, M., Chuguransky, S., Grego, T., et al., InterPro in 2022. Nucleic Acids Res. 2023, 51, D418–D427.
 
