@@ -1,0 +1,1 @@
+**classification_entries_allmethods.xlsx**: contains information concerning the classification of each entries of the benchmark by the three classifiers developped in this work: consensus score, random forest and dockQ score applied on AlphaFold models.
