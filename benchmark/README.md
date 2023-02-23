@@ -30,6 +30,7 @@ Folder content:
 - *frac_apolar*: The apolar fraction of the buried surface area of the dimer
 
  <br />
+ 
 **References**
 
 [1]	Xu, Q., Dunbrack, R.L., Jr, ProtCID: a data resource for structural information on protein interactions. Nat. Commun. 2020, 11, 711.
