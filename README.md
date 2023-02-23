@@ -2,9 +2,13 @@
 
 The content is provided under the license https://creativecommons.org/licenses/by/4.0/.
 
+<br>
+
 <h2>Introduction</h2>
 
 Reliably scoring and ranking candidate models of protein complexes and assigning their oligomeric state from the structure of the crystal lattice represent outstanding challenges. A community-wide effort was launched to tackle these challenges. The latest resources on protein complexes and interfaces were exploited to derive a benchmark dataset consisting of 1677 homodimer protein crystal structures, including a balanced mix of physiological and non-physiological complexes. The non-physiological complexes in the benchmark were selected to bury a similar or larger interface area than their physiological counterparts, making it more difficult for scoring functions to differentiate between them. Next, 252 functions for scoring protein-protein interfaces previously developed by 13 groups were collected and evaluated for their ability to discriminate between physiological and non-physiological complexes. A simple consensus score generated using the best performing score of each of the 13 groups, and a cross-validated Random Forest (RF) classifier were created. Both approaches showed excellent performance, with an area under the Receiver Operating Characteristic (ROC) curve of 0.93 and 0.94 respectively, outperforming individual scores developed by different groups. Additionally, AlphaFold2 [1] engines recalled the physiological dimers with significantly higher accuracy than the non-physiological set, lending support to the reliability of our benchmark dataset annotations. Optimizing the combined power of interface scoring functions and evaluating it on challenging benchmark datasets appears to be a promising strategy.
+
+<br>
 
 <h2>The benchmark</h2>
 
@@ -20,6 +24,7 @@ The key points of this dataset are:
 
 (iii) it is expected to yield difficult predictions because the distribution of interface sizes is comparable among physiological and non-physiological complexes.
 
+<br>
 
 <h2>Content of the repository</h2>
 
