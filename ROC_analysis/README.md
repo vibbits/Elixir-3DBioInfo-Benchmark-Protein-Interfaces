@@ -14,5 +14,5 @@ It contains two sheets, with the following columns:
 **Sheet 2**: misclassified_entries_analysis
 
 The subset of entries misclassified by 2 or more methods. Columns 1-6 contain the same information as in Sheet 1, Column 7 and 8 are organized as follow:
-reassignment: lists misclassified entries that are likely misassigned  (‘1’ red), and misclassified entries that are likely not misassigned ( ‘0’ blue). 
-protCID: Comments supporting the re-assignments on the basis of ProtCID or ProtCAD.
+- *reassignment*: lists misclassified entries that are likely misassigned  (‘1’ red), and misclassified entries that are likely not misassigned ( ‘0’ blue). 
+- *protCID*: Comments supporting the re-assignments on the basis of ProtCID or ProtCAD.
