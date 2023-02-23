@@ -29,8 +29,10 @@ Folder content:
 - *frac_apolar*: The apolar fraction of the buried surface area of the dimer
 
 
-References
+**References**
+
 [1]	Xu, Q., Dunbrack, R.L., Jr, ProtCID: a data resource for structural information on protein interactions. Nat. Commun. 2020, 11, 711.
+
 [2]	Lewis, T.E., Sillitoe, I., Dawson, N., Lam, S.D., et al., Gene3D: Extensive prediction of globular domains in proteins. Nucleic Acids Res. 2018, 46, D435–D439.
 
 [3]	Sillitoe, I., Bordin, N., Dawson, N., Waman, V.P., et al., CATH: increased structural coverage of functional space. Nucleic Acids Res. 2021, 49, D266–D273.
