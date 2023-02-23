@@ -1,7 +1,9 @@
 The PDB folder consists of 1677 entries, the CIF folder contains 1673 entries because the same structure can generate multiple interfaces depending on symmetry operations.
 
 Of the 1677 entries :
+
     • 700 were selected based on ProtCID
+    
     • 977 were selected based on QSalign
 
  <br />
