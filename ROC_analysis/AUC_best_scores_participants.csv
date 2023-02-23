@@ -1,0 +1,15 @@
+Group,"Number of raw/integrated
+scores",Score,optimal threshold,AUC
+group Bonvin,4/4,Deeprank-GNN*,0.212082,0.85
+group Furman,20/0,F_dG.cross.dSASA100,-2.1838,0.84
+group Venclovas,74/0,F_Voronota_iface_expanded_area,2374.834,0.82
+group Zou,0/2,I_P_Biological*,0.6052,0.81
+group Guerois,0/11,I_IESh.10seq.normsize*,0.23484,0.81
+group Fernandez-Recio,87/2,F_NIPacking,0.0001884,0.79
+group SWISS-MODEL,0/1,I_QSQE*,0.6701377,0.79
+group Bologna,0/2,I_physiological_score_MCC*,0.2144549,0.76
+group Kihara,8/0,F_GOAP,-45445.41,0.75
+group Correia,0/3,I_descriptor_distance_score*,13.99936,0.75
+group Oliva,37/4,F_CP,6.9,0.75
+group MOBI,3/1,I_shape_hydro_tails*,0.1815011,0.72
+group Wolfson,5/1,I_Proba_Consensus*,0.08089392,0.71
