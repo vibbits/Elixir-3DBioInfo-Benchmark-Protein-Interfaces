@@ -2,11 +2,11 @@
 
 The content is provided under the license https://creativecommons.org/licenses/by/4.0/.
 
-**Introduction**
+<h1>Introduction</h1>
 
 Reliably scoring and ranking candidate models of protein complexes and assigning their oligomeric state from the structure of the crystal lattice represent outstanding challenges. A community-wide effort was launched to tackle these challenges. The latest resources on protein complexes and interfaces were exploited to derive a benchmark dataset consisting of 1677 homodimer protein crystal structures, including a balanced mix of physiological and non-physiological complexes. The non-physiological complexes in the benchmark were selected to bury a similar or larger interface area than their physiological counterparts, making it more difficult for scoring functions to differentiate between them. Next, 252 functions for scoring protein-protein interfaces previously developed by 13 groups were collected and evaluated for their ability to discriminate between physiological and non-physiological complexes. A simple consensus score generated using the best performing score of each of the 13 groups, and a cross-validated Random Forest (RF) classifier were created. Both approaches showed excellent performance, with an area under the Receiver Operating Characteristic (ROC) curve of 0.93 and 0.94 respectively, outperforming individual scores developed by different groups. Additionally, AlphaFold2 engines recalled the physiological dimers with significantly higher accuracy than the non-physiological set, lending support to the reliability of our benchmark dataset annotations. Optimizing the combined power of interface scoring functions and evaluating it on challenging benchmark datasets appears to be a promising strategy.
 
-**The benchmark**
+<h1>The benchmark</h1>
 
 The benchmark dataset set contains 1677 homodimers that are predicted to be physiological or non-physiological (folder **benchmark**). Those predictions are based on the methods from the groups of Roland Dunbrack and Emmanuel Levy. These methods rely on the conservation of interaction geometry (i.e., not of the residues at the interface, but of the structure of the interface), across crystal forms (protCID, Xu et al, 2020), across homologs (QSalign, Dey et al, 2018), or across methods (QSbio, itself integrating PISA + EPPIC). Of the 1677 entries of the benchmark, 977 were selected based on QSalign and 700 were selected based on ProtCID.
 
@@ -21,7 +21,7 @@ The key points of this dataset are:
 (iii) it is expected to yield difficult predictions because the distribution of interface sizes is comparable among physiological and non-physiological complexes.
 
 
-**Content of the repository**
+<h1>Content of the repository</h1>
 
 This repository contains 17 folders. 13 folders correspond to the results of each participants, one folder corresponds to the benchmark set of protein structures, one to the AlphaFold models generated during the study, one to the random forest analysis and one to the ROC analysis.
 
