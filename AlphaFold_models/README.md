@@ -1,5 +1,5 @@
 
-<h3>collected_models_top_DockQ.csv<h3\>
+<h3>collected_models_top_DockQ.csv</h3>
 
 Data file for collected_models_top_DockQ. Contains a row for each target (incl. 4 which could not be modelled in AF-Multimer and 2 which failed in DockQ) with following columns:
 - *pdb_id*: identifies dimer target
@@ -11,6 +11,6 @@ Data file for collected_models_top_DockQ. Contains a row for each target (incl. 
 - *iptm*: ipTM value predicted by AF-Multimer for selected model
 
 
-<h3>collected_models_top_DockQ<h3\>
+<h3>collected_models_top_DockQ</h3>
 
 Contains unrelaxed AF-Multimer model with highest DockQ score for each dimer-target. Files are named as "[PDB-ID].pdb".
