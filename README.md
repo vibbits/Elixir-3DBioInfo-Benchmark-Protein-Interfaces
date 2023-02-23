@@ -57,10 +57,12 @@ Contains files from the random forest analysis:
 
 <h3>ROC_analysis</h3>
 
-contain all the files related to the ROC analysis.     
+Contains all the files related to the ROC analysis.     
 
 
-<h3>Participants</h3>
+<h3>groups</h3>
+
+Contains the folders of all the participating groups, as well as the results from AlphaFold calculations.
 
 The folders of the participants are organized as follow:
 
