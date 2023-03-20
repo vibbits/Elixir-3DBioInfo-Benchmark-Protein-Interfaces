@@ -34,7 +34,7 @@ The key points of this dataset are:
 
 <h2>Content of the repository</h2>
 
-This repository contains 17 folders. 13 folders correspond to the results of each participants, one folder corresponds to the benchmark set of protein structures, one to the AlphaFold models generated during the study, one to the random forest analysis and one to the ROC analysis.
+This repository contains 5 main folders. One folder correspond to the results of the participants, one folder corresponds to the benchmark set of protein structures, one to the AlphaFold models generated during the study, one to the random forest analysis and one to the ROC analysis.
 
 
 
