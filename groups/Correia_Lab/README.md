@@ -14,4 +14,6 @@ where i is a pair of interacting points of the interface and d the descriptor di
 Neural network alignment score is a complex function that computes a score between 0 (bad alignment between patches) and 1 (good alignment). This function is computed based on the 3D Euclidean distance, the MaSIF fingerprint/descriptor distance and the product of the normals between correspondences.nn12 and nn0129 stands for two different neural networks.
 
 
-Reference : Gainza, P., Sverrisson, F., Monti, F. et al. Deciphering interaction fingerprints from protein molecular surfaces using geometric deep learning. Nat Methods 17, 184–192 (2020). https://doi.org/10.1038/s41592-019-0666-6
+Reference : 
+
+Gainza, P., Sverrisson, F., Monti, F. et al. Deciphering interaction fingerprints from protein molecular surfaces using geometric deep learning. Nat Methods 17, 184–192 (2020). https://doi.org/10.1038/s41592-019-0666-6
