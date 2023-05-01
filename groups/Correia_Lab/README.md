@@ -9,6 +9,8 @@ Descriptor distance score is a score that evaluates the complementary of two int
 
 score = \sum_{k=1}^n a_k b_k
 
+$$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$
+
 where i is a pair of interacting points of the interface and d the descriptor distance between these points. The smaller is the distance between complementary descriptors, the more complementarity and the higher is the score.
 
 Neural network alignment score is a complex function that computes a score between 0 (bad alignment between patches) and 1 (good alignment). This function is computed based on the 3D Euclidean distance, the MaSIF fingerprint/descriptor distance and the product of the normals between correspondences.nn12 and nn0129 stands for two different neural networks.
