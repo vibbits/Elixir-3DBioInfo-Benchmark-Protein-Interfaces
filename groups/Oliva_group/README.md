@@ -1,6 +1,6 @@
 **Zou lab** University of Missouri USA (ZouX@missouri.edu)
 
-Rui Duan<sup>1</sup>, Liming Qiu1, Xianjin Xu1, Shuang Zhang1, Xiaoqin Zou1,2,3,4
+Rui Duan<sup>1</sup>, Liming Qiu<sup>1</sup>, Xianjin Xu<sup>1</sup>, Shuang Zhang<sup>1</sup>, Xiaoqin Zou<sup>1,2,3,4</sup>
 
 1. Dalton Cardiovascular Research Center, University of Missouri, Columbia, Missouri, USA.
 
