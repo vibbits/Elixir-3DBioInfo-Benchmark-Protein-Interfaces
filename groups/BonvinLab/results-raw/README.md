@@ -1,4 +1,4 @@
-Bonvin Lab. University of Utrecht  Elixir NL (a.m.j.j.bonvin@uu.nl)
+**Bonvin Lab. University of Utrecht  Elixir NL (a.m.j.j.bonvin@uu.nl)**
 
 **PRODIGY-CRYSTAL**
 
