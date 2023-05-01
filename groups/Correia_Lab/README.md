@@ -7,7 +7,7 @@ Among the different output of MaSIF, two scores are relevant :
 
 Descriptor distance score is a score that evaluates the complementary of two interacting patches. The function is :
 
-score = \sum_{i=1}^n a_i
+score = \sum_{k=1}^n a_k b_k
 
 where i is a pair of interacting points of the interface and d the descriptor distance between these points. The smaller is the distance between complementary descriptors, the more complementarity and the higher is the score.
 
