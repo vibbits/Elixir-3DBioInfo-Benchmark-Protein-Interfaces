@@ -5,7 +5,12 @@ In order to search for a complementary interaction interface, MaSIF computes the
 
 Among the different output of MaSIF, two scores are relevant :
 
-Descriptor distance score is a score that evaluates the complementary of two interacting patches. The function is :score = i=0n1/di where i is a pair of interacting points of the interface and d the descriptor distance between these points. The smaller is the distance between complementary descriptors, the more complementarity and the higher is the score.
+Descriptor distance score is a score that evaluates the complementary of two interacting patches. The function is :
+
+score = i=0n1/di 
+
+where i is a pair of interacting points of the interface and d the descriptor distance between these points. The smaller is the distance between complementary descriptors, the more complementarity and the higher is the score.
+
 Neural network alignment score is a complex function that computes a score between 0 (bad alignment between patches) and 1 (good alignment). This function is computed based on the 3D Euclidean distance, the MaSIF fingerprint/descriptor distance and the product of the normals between correspondences.nn12 and nn0129 stands for two different neural networks.
 
 
