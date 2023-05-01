@@ -7,7 +7,7 @@ Among the different output of MaSIF, two scores are relevant :
 
 Descriptor distance score is a score that evaluates the complementary of two interacting patches. The function is :
 
-score = \sum_{k=1}^n a_k b_k
+score = $$\sum_{k=1}^n a_k b_k$$
 
 $$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$
 
