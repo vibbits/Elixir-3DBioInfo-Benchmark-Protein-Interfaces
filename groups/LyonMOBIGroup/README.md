@@ -3,7 +3,6 @@
 We compute three descriptors for each interface (F_shape, F_hydro,F_tails), and one integrated score (I_shape_hydro_tails). Each is described below.
 
 - F_shape
-- 
 This quantity is obtained by fast shape-based docking. 
 The two chains of a dimer are docked using the hex software with the same parameters as in (Martin J, Lavery R. Arbitrary protein-protein docking targets biologically relevant interfaces. BMC Biophysics. 2012). We compute, for each residue, the number of hits , i.e., frequency of each residue at the interface over the first 250 poses (interface defined by change in accessibility computed with NACCESS). 
 F_shape is then defined as the fraction of number of hits that is captured by the residues of the interface core.
