@@ -63,7 +63,8 @@ The MCC index can be directly interpreted as a score for the input assembly to b
 In Figure 1 we summarize the procedure for assemblies that are symmetric homodimers. In Figure 2, the procedure is described for asymmetric homodimers. In the latter case, interface regions can be different in the two subunits. In order to avoid any bias and to make our procedure independent from the symmetry properties of the input assembly, ISPRED4 predictions are performed on single subunits and compared with all interface residues remapped in the processed subunit. This allows us to adequately compute scoring indexes.
 
 
-Figure 3. Computation MCC-based scoring function for symmetric homodimers
+Figure 3. Computation MCC-based scoring function for symmetric homodimers!
+
 
  
 
@@ -73,7 +74,7 @@ Self-evaluation on the benchmark_v3
 The above procedure has been self-evaluated on the current version of the benchmark (v2) comprising 1677 homodimeric assemblies classified into 836 and 841 physiological and non-physiological complexes, respectively.
 Firstly, we evaluated the distribution of the scoring function in physiological and non-physiological complexes. Distribution plots are shown in Figure 5.
 
-
+[casadio_fig5](https://user-images.githubusercontent.com/22592827/235597777-fde15c61-f418-459f-b562-a57976c1b9ac.png)
 Figure 5. Distribution of MCC-based scores assigned to 836 and 841 physiological and non-physiological complexes, respectively.
  
 As can be seen, the distributions are different for physiological and non-physiological complexes, providing some separation of the two classes. Area Under the ROC Curve (AUC) is 0.76.
