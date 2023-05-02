@@ -3,6 +3,8 @@ Castrense Savojardo, Pier Luigi Martelli, Rita Casadio Biocomputing Group, Unive
 
 Here we describe the approach based on our ISPRED4 interaction site predictor for discriminating physiological from non-physiological dimers in the context of the ELIXIR 3DBioInfo Community Benchmark.
 
+ <br />
+  
 **The ISPRED4 prediction method**
 
 ISPRED4 [1] (https://ispred4.biocomp.unibo.it) is an improved structure-based predictor of PPI sites on unbound monomer surfaces.
@@ -50,6 +52,8 @@ Experimental interaction sites for training were taken from the bound complexes 
  
 Two different machine-learning methods are employed in ISPRED4. In a first step, a Support Vector Machine (SVM) is used to process the above 46 features and perform a preliminary discrimination of interaction sites in the protein surface. Then, a Grammatical-Restrained Hidden Conditional Random Field (GRHCRF) [2] model is adopted for refining and correcting SVM predictions by means of a regular grammar, which models the proximity relationships of interface residues along the surface sequence. The GRHCRF introduces correlations among the different SVM predictions by filtering out single isolated spots and by reinforcing locally coherent predictions.
 
+ <br />
+  
 **ISPRED4 for discrimination of physiological from non-physiological dimers**
 
 The discrimination problem can be stated as follows: given a query protein assembly, we want to compute a score proportional to the likelihood that the interface represented in the assembly is the functional one i.e., the one assumed by the protein in physiological conditions. We propose to adopt ISPRED4 as a proxy for distinguishing physiological from non-physiological assemblies. Currently, only homodimers are included in the benchmark dataset. However, the procedure described here can be easily adapted to classify any kind of protein assembly (homo and hetero multimers).
