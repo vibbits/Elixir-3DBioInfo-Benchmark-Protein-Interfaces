@@ -1,9 +1,0 @@
-**Schwede Lab.** SIB Swiss Institute of Bioinformatics, Biozentrum, University of Basel  Gerardo Tauriello (gerardo.tauriello@unibas.ch)
-
-The QSQE score (Bertoni et al 2017; https://dx.doi.org/10.1038/s41598-017-09654-8) is used in SWISS-MODEL (Waterhouse et al 2018; https://doi.org/10.1093/nar/gky427) to rank templates according to the expected accuracy of the interchain contacts for a model built using that template. It is a composite score between 0 and 1 based on a supervised machine learning algorithm (Support Vector Machines) and combines interface conservation, structural clustering, and other template features.
-
-For the purpose of this benchmark, a minimally modified version of SWISS-MODEL was used which forces computation of QSQE on each dimer of interest. Since QSQE is only computed on templates, it can only be used with dimers which are in our template library. From a total of 1677 dimers in the test set (836 phys., 841 non-phys.), it could be used on 1129 dimers (821 phys., 308 non-phys.).
-
-QSQE was never trained to distinguish non-phys. from phys. interfaces but rather to be able to pick the best template for modelling. Since a template with a non-phys. interface would lead to an inaccurate model, it is nonetheless expected to have higher QSQE scores for phys. interfaces.
-
-QSQE was trained on a set of complexes of varying stoichiometry where for each complex a template search was performed and models generated covering different evolutionary distances. In this data set, we marked dimers as related to the QSQE-training-data for any dimer which was either used as template in the training for QSQE or which has at least 40% sequence identity to any dimer in the target set for QSQE training. This labels 157 (out of 1129) dimers as training data. From our own analysis it does not appear that performance differs much between training and non-training dimers which is to be expected since QSQE was trained for a different task.
