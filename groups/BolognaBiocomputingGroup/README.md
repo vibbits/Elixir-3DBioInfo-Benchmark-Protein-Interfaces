@@ -7,7 +7,8 @@ ISPRED4 [1] (https://ispred4.biocomp.unibo.it) is an improved structure-based pr
 
 
 
- 
+ ![casadio_fig1](https://user-images.githubusercontent.com/22592827/235601016-ce7835b1-9961-421c-9353-28cbd3aadc6d.png)
+
 
 Figure 1. The ISPRED4 workflow. GRHCRF: Grammatical-Restrained Conditional Random Fields [2].
  
@@ -35,6 +36,7 @@ Then, ISPRED4 relies on machine-learning methods (SVMs and GRHCRFs [2]) incorpor
 All the features are computed for each surface residue and then averaged over the local structural context comprising surface residues at a Cα-Cα distance below 12Å.
 Training of ISPRED4 has been performed using a dataset of 314 unbound protein chains extracted from 151 high-resolution, functional protein-protein complexes derived from the Docking Benchmark dataset version 5 (DBv5) [11] (https://zlab.umassmed.edu/benchmark/). Complexes in this dataset comprise both bound and unbound forms.
  
+![casadio_fig2](https://user-images.githubusercontent.com/22592827/235601033-bbdd8c3a-da92-48f3-91ac-f3af56564dff.png)
 
 Figure 2. Calculation of experimental interaction sites and features in the ISPRED4 training dataset
  
@@ -63,13 +65,17 @@ The MCC index can be directly interpreted as a score for the input assembly to b
 In Figure 1 we summarize the procedure for assemblies that are symmetric homodimers. In Figure 2, the procedure is described for asymmetric homodimers. In the latter case, interface regions can be different in the two subunits. In order to avoid any bias and to make our procedure independent from the symmetry properties of the input assembly, ISPRED4 predictions are performed on single subunits and compared with all interface residues remapped in the processed subunit. This allows us to adequately compute scoring indexes.
 
 
+![casadio_fig3](https://user-images.githubusercontent.com/22592827/235601048-141cf3c1-247c-4431-902f-97ae5dfbd507.png)
+
+
 Figure 3. Computation MCC-based scoring function for symmetric homodimers!
 
-
  
-
+![casadio_fig4](https://user-images.githubusercontent.com/22592827/235601059-e3653d1f-0530-4d16-913a-2dee4825be1a.png)
 
 Figure 4. Computation MCC-based scoring function for asymmetric homodimers
+
+
 Self-evaluation on the benchmark_v3
 The above procedure has been self-evaluated on the current version of the benchmark (v2) comprising 1677 homodimeric assemblies classified into 836 and 841 physiological and non-physiological complexes, respectively.
 Firstly, we evaluated the distribution of the scoring function in physiological and non-physiological complexes. Distribution plots are shown in Figure 5.
