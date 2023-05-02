@@ -41,7 +41,9 @@ Training of ISPRED4 has been performed using a dataset of 314 unbound protein ch
 ![casadio_fig2](https://user-images.githubusercontent.com/22592827/235601033-bbdd8c3a-da92-48f3-91ac-f3af56564dff.png)
 
 *Figure 2. Calculation of experimental interaction sites and features in the ISPRED4 training dataset*
- 
+
+ <br />
+  
 Experimental interaction sites for training were taken from the bound complexes whereas features were extracted from unbound chains (Figure 2). This allows to avoid biases in the computation of features due to possible conformational changes of interface regions upon binding. Protein-protein interfaces were defined as the set of all surface residues undergoing a change in ASA upon binding. In practice, this is performed by applying DSSP to both the bound and the unbound structures and then identifying those surface residues for which bound and unbound ASA differ (specifically, unbound ASA is higher than the bound one). Surface is defined as detailed above i.e., using a threshold of 20% on the residue RSA as computed in the unbound structure.
  
 Two different machine-learning methods are employed in ISPRED4. In a first step, a Support Vector Machine (SVM) is used to process the above 46 features and perform a preliminary discrimination of interaction sites in the protein surface. Then, a Grammatical-Restrained Hidden Conditional Random Field (GRHCRF) [2] model is adopted for refining and correcting SVM predictions by means of a regular grammar, which models the proximity relationships of interface residues along the surface sequence. The GRHCRF introduces correlations among the different SVM predictions by filtering out single isolated spots and by reinforcing locally coherent predictions.
@@ -72,11 +74,13 @@ In Figure 1 we summarize the procedure for assemblies that are symmetric homodim
 
 *Figure 3. Computation MCC-based scoring function for symmetric homodimers!*
 
+ <br />
  
 ![casadio_fig4](https://user-images.githubusercontent.com/22592827/235601059-e3653d1f-0530-4d16-913a-2dee4825be1a.png)
 
 *Figure 4. Computation MCC-based scoring function for asymmetric homodimers*
 
+ <br />
 
 Self-evaluation on the benchmark_v3
 The above procedure has been self-evaluated on the current version of the benchmark (v2) comprising 1677 homodimeric assemblies classified into 836 and 841 physiological and non-physiological complexes, respectively.
@@ -86,7 +90,9 @@ Firstly, we evaluated the distribution of the scoring function in physiological 
 
 
 *Figure 5. Distribution of MCC-based scores assigned to 836 and 841 physiological and non-physiological complexes, respectively.*
- 
+
+ <br />
+  
 As can be seen, the distributions are different for physiological and non-physiological complexes, providing some separation of the two classes. Area Under the ROC Curve (AUC) is 0.76.
 
 
