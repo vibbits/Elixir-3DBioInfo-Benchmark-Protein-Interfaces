@@ -11,7 +11,9 @@ ISPRED4 [1] (https://ispred4.biocomp.unibo.it) is an improved structure-based pr
 
 
 *Figure 1. The ISPRED4 workflow. GRHCRF: Grammatical-Restrained Conditional Random Fields [2].*
-  <br />
+
+ <br />
+  
 The ISPRED4 workflow is shown in Figure 1. ISPRED4 takes in input an unbound protein chain and identifies, on the protein surface, protein-protein interaction sites i.e., residues that are putatively involved in interactions with other proteins. ISPRED4 performs its prediction in a partner unspecific way: no prior knowledge of the putative interaction partner is required. The first step is the isolation of those residues placed in the protein surface. This is accomplished using Accessible Surface Area (ASA) values computed by DSSP [3] and transformed into Relative Solvent Accessibility (RSA) values using the Sander & Rost scale of residue maximal accessibility [4]. Protein surface is then defined as the collection of residues having RSA greater or equal to 20%.
 Then, ISPRED4 relies on machine-learning methods (SVMs and GRHCRFs [2]) incorporating 46 features extracted from both protein sequence and structure. Residue descriptors used by ISPRED4 include:
 
