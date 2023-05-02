@@ -16,6 +16,7 @@ Each residue is assigned a hydrophobicity score, defined by its hydrophobicity v
 This quantity is obtained using the location of terminal residues with respect to protein-protein interface. It is a binary variable, equal to 0 if at least terminal residue is involved at the interface (rim and core), and 1 otherwise. The rationale is that tails are under-represented in physiological interfaces (Martin OMF, Etheve L, Launay G, Martin J. Implication of Terminal Residues at Protein-Protein and Protein-DNA Interfaces. PLOS ONE. 2016).
 
 - I_shape_hydro_tails
-The integrated score is defined by $$I=Fshape+Fhydro(Ftails)$$
-with Ftails=1 if Ftails=1,   and Ftails=0.5 if Ftails=0.
+The integrated score is defined by 
+$$I=F_shape+F_hydro(F_tails)$$
+with F_tails=1 if F_tails=1, and F_tails=0.5 if F_tails=0.
 Here we simply sum the contributions of shape and hydrophobicity, and penalize interfaces with tails by dividing their score by 2.
