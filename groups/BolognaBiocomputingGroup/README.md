@@ -1,4 +1,4 @@
-Casadio-Lab.   University of Bologna, Italy   (rita.casadio@unibo.it)
+**Casadio-Lab.**   University of Bologna, Italy   (rita.casadio@unibo.it)
 Castrense Savojardo, Pier Luigi Martelli, Rita Casadio Biocomputing Group, University of Bologna, Italy
 
 Here we describe the approach based on our ISPRED4 interaction site predictor for discriminating physiological from non-physiological dimers in the context of the ELIXIR 3DBioInfo Community Benchmark.
