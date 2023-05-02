@@ -17,7 +17,7 @@ This quantity is obtained using the location of terminal residues with respect t
 
 - I_shape_hydro_tails
 The integrated score is defined by 
-$$I=F_shape+F_hydro(F_t_a_i_l_s)$$
+$$I=F_shape+F_hydro(F_{tails})$$
 with F<sub>tails</sub>=1 if 
 F<sub>tails</sub>=1, and 
 F<sub>tails</sub>=0.5 if 
