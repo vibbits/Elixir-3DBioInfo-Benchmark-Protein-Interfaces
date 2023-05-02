@@ -10,7 +10,7 @@ ISPRED4 [1] (https://ispred4.biocomp.unibo.it) is an improved structure-based pr
  ![casadio_fig1](https://user-images.githubusercontent.com/22592827/235601016-ce7835b1-9961-421c-9353-28cbd3aadc6d.png)
 
 
-Figure 1. The ISPRED4 workflow. GRHCRF: Grammatical-Restrained Conditional Random Fields [2].
+*Figure 1. The ISPRED4 workflow. GRHCRF: Grammatical-Restrained Conditional Random Fields [2].*
  
 The ISPRED4 workflow is shown in Figure 1. ISPRED4 takes in input an unbound protein chain and identifies, on the protein surface, protein-protein interaction sites i.e., residues that are putatively involved in interactions with other proteins. ISPRED4 performs its prediction in a partner unspecific way: no prior knowledge of the putative interaction partner is required. The first step is the isolation of those residues placed in the protein surface. This is accomplished using Accessible Surface Area (ASA) values computed by DSSP [3] and transformed into Relative Solvent Accessibility (RSA) values using the Sander & Rost scale of residue maximal accessibility [4]. Protein surface is then defined as the collection of residues having RSA greater or equal to 20%.
 Then, ISPRED4 relies on machine-learning methods (SVMs and GRHCRFs [2]) incorporating 46 features extracted from both protein sequence and structure. Residue descriptors used by ISPRED4 include:
@@ -38,7 +38,7 @@ Training of ISPRED4 has been performed using a dataset of 314 unbound protein ch
  
 ![casadio_fig2](https://user-images.githubusercontent.com/22592827/235601033-bbdd8c3a-da92-48f3-91ac-f3af56564dff.png)
 
-Figure 2. Calculation of experimental interaction sites and features in the ISPRED4 training dataset
+*Figure 2. Calculation of experimental interaction sites and features in the ISPRED4 training dataset*
  
 Experimental interaction sites for training were taken from the bound complexes whereas features were extracted from unbound chains (Figure 2). This allows to avoid biases in the computation of features due to possible conformational changes of interface regions upon binding. Protein-protein interfaces were defined as the set of all surface residues undergoing a change in ASA upon binding. In practice, this is performed by applying DSSP to both the bound and the unbound structures and then identifying those surface residues for which bound and unbound ASA differ (specifically, unbound ASA is higher than the bound one). Surface is defined as detailed above i.e., using a threshold of 20% on the residue RSA as computed in the unbound structure.
  
@@ -68,12 +68,12 @@ In Figure 1 we summarize the procedure for assemblies that are symmetric homodim
 ![casadio_fig3](https://user-images.githubusercontent.com/22592827/235601048-141cf3c1-247c-4431-902f-97ae5dfbd507.png)
 
 
-Figure 3. Computation MCC-based scoring function for symmetric homodimers!
+*Figure 3. Computation MCC-based scoring function for symmetric homodimers!*
 
  
 ![casadio_fig4](https://user-images.githubusercontent.com/22592827/235601059-e3653d1f-0530-4d16-913a-2dee4825be1a.png)
 
-Figure 4. Computation MCC-based scoring function for asymmetric homodimers
+*Figure 4. Computation MCC-based scoring function for asymmetric homodimers*
 
 
 Self-evaluation on the benchmark_v3
@@ -83,10 +83,13 @@ Firstly, we evaluated the distribution of the scoring function in physiological 
 ![casadio_fig5](https://user-images.githubusercontent.com/22592827/235597886-7d55e899-9ea0-4ff6-9a26-bc9105937bf6.png)
 
 
-Figure 5. Distribution of MCC-based scores assigned to 836 and 841 physiological and non-physiological complexes, respectively.
+*Figure 5. Distribution of MCC-based scores assigned to 836 and 841 physiological and non-physiological complexes, respectively.*
  
 As can be seen, the distributions are different for physiological and non-physiological complexes, providing some separation of the two classes. Area Under the ROC Curve (AUC) is 0.76.
-References
+
+
+**References**
+
 1. Savojardo C, Fariselli P, Martelli PL, Casadio R. ISPRED4: interaction sites PREDiction in protein structures with a refining grammar model. Bioinformatics. 2017;33:1656–63.
 2. Fariselli P, Savojardo C, Martelli PL, Casadio R. Grammatical-Restrained Hidden Conditional Random Fields for Bioinformatics applications. Algorithms Mol Biol. 2009;4:13.
 3. Kabsch W, Sander C. Dictionary of protein secondary structure: pattern recognition of hydrogen-bonded and geometrical features. Biopolymers. 1983;22:2577–637.
