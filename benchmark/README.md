@@ -36,7 +36,7 @@ Of the 1677 entries :
 - *frac_polar*: The polar fraction of the buried surface area of the dimer
 - *frac_apolar*: The apolar fraction of the buried surface area of the dimer
 
-**benchmark_annotated_updated_30042023.csv** is the updated version of **benchmark_annotated.csv** after manual curation of the entries that were misclassified by at least two methods. XX entries were reassigned from physiological to non-physiological, and YY from non-physiological to physiological.
+**benchmark_annotated_updated_30042023.csv** is the updated version of **benchmark_annotated.csv** after manual curation of the entries that were misclassified by at least two methods. 2 entries were reassigned from physiological to non-physiological, and 11 from non-physiological to physiological. 6 additional entries were deleted.
 
 
  <br />
