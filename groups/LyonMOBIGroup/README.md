@@ -18,5 +18,8 @@ This quantity is obtained using the location of terminal residues with respect t
 - I_shape_hydro_tails
 The integrated score is defined by 
 $$I=F_shape+F_hydro(F_tails)$$
-with F<sub>tails</sub>=1 if F<sub>tails</sub>=1, and F<sub>tails</sub>=0.5 if F<sub>tails</sub>=0.
+with F<sub>tails</sub>=1 if 
+F<sub>tails</sub>=1, and 
+F<sub>tails</sub>=0.5 if 
+F<sub>tails</sub>=0.
 Here we simply sum the contributions of shape and hydrophobicity, and penalize interfaces with tails by dividing their score by 2.
