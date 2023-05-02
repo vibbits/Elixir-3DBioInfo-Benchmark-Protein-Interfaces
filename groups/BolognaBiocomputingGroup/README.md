@@ -13,14 +13,23 @@ Figure 1. The ISPRED4 workflow. GRHCRF: Grammatical-Restrained Conditional Rando
  
 The ISPRED4 workflow is shown in Figure 1. ISPRED4 takes in input an unbound protein chain and identifies, on the protein surface, protein-protein interaction sites i.e., residues that are putatively involved in interactions with other proteins. ISPRED4 performs its prediction in a partner unspecific way: no prior knowledge of the putative interaction partner is required. The first step is the isolation of those residues placed in the protein surface. This is accomplished using Accessible Surface Area (ASA) values computed by DSSP [3] and transformed into Relative Solvent Accessibility (RSA) values using the Sander & Rost scale of residue maximal accessibility [4]. Protein surface is then defined as the collection of residues having RSA greater or equal to 20%.
 Then, ISPRED4 relies on machine-learning methods (SVMs and GRHCRFs [2]) incorporating 46 features extracted from both protein sequence and structure. Residue descriptors used by ISPRED4 include:
+
 ●      Sequence profile from Multiple Sequence Alignment (MSA), obtained running 3 iterations of PSI-BLAST against UniRef90 database with e-value threshold set to 0.001.
+
 ●      Residue conservation score from the MSA: Normalized Shannon's entropy on sequence profile.
+
 ●      Residue physico-chemical properties: 10 Kidera factors from dimension reduction of 188 physical properties [5].
+
 ●      Intra-chain coevolution scores computed using PSICOV [6]. Two descriptors evaluating the overall coevolution score with respect to: i) residues within the local structural context and ii) the remaining surface residues (i.e., not part of the local context).
+
 ●      Interface propensity, computed on the training set for each residue type R as the log-ratio of frequencies of R in interface and surface, respectively.
+
 ●      Solvent exposure delta: difference between experimental and predicted RSA (using the SABLE [7] program from sequence). Rationale: sequence-based RSA predictors tend to provide RSA values as observed in protein complexes and the difference can be used as a fingerprint for PPI sites.
+
 ●      Geometrical features, including depth index, as computed using the DPX algorithm [8], and protrusion index [9], both extracted using the Protein Structure And Interaction Analyzer (PSAIA) [10].
+
 ●      Secondary structure, extracted with DSSP [3] and mapped in three classes: helix (H, G, I), strand (E, B) and coil (T, S, -).
+
 ●      Residue B-factor, computed averaging B-factors of all atoms.
 
 All the features are computed for each surface residue and then averaged over the local structural context comprising surface residues at a Cα-Cα distance below 12Å.
