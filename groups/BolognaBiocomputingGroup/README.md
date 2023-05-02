@@ -74,7 +74,9 @@ Self-evaluation on the benchmark_v3
 The above procedure has been self-evaluated on the current version of the benchmark (v2) comprising 1677 homodimeric assemblies classified into 836 and 841 physiological and non-physiological complexes, respectively.
 Firstly, we evaluated the distribution of the scoring function in physiological and non-physiological complexes. Distribution plots are shown in Figure 5.
 
-[casadio_fig5](https://user-images.githubusercontent.com/22592827/235597777-fde15c61-f418-459f-b562-a57976c1b9ac.png)
+![casadio_fig5](https://user-images.githubusercontent.com/22592827/235597886-7d55e899-9ea0-4ff6-9a26-bc9105937bf6.png)
+
+
 Figure 5. Distribution of MCC-based scores assigned to 836 and 841 physiological and non-physiological complexes, respectively.
  
 As can be seen, the distributions are different for physiological and non-physiological complexes, providing some separation of the two classes. Area Under the ROC Curve (AUC) is 0.76.
